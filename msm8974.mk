@@ -128,6 +128,10 @@ PRODUCT_PACKAGES += \
     libshim_camera \
     libshim_cald
 
+# Snap Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # Recovery
 PRODUCT_PACKAGES += \
     keycheck
