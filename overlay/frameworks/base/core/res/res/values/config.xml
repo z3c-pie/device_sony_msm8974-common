@@ -166,6 +166,9 @@
         <item>SUPL_VER=0x20000</item>
         <item>LPP_PROFILE=2</item>
         <item>A_GLONASS_POS_PROTOCOL_SELECT=2</item>
+        <item>XTRA_SERVER_1=http://xtrapath1.izatcloud.net/xtra2.bin</item>
+        <item>XTRA_SERVER_2=http://xtrapath2.izatcloud.net/xtra2.bin</item>
+        <item>XTRA_SERVER_3=http://xtrapath3.izatcloud.net/xtra2.bin</item>
     </string-array>
 
     <!-- Hardware keys present on the device with the ability to wake, stored as a bit field.
@@ -182,7 +185,7 @@
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">96</integer>
 
-  <!-- When true, the tethering upstream network follows the current default
+    <!-- When true, the tethering upstream network follows the current default
        Internet network (except when the current default network is mobile,
        in which case a DUN network will be used if required). -->
     <bool translatable="false" name="config_tether_upstream_automatic">true</bool>
