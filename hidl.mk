@@ -2,7 +2,7 @@
 PRODUCT_PACKAGES += \
 	android.hardware.audio@2.0-impl \
 	android.hardware.audio.effect@2.0-impl
-	
+
 # Bluetooth
 PRODUCT_PACKAGES += \
 	android.hardware.bluetooth@1.0-service
@@ -14,7 +14,7 @@ PRODUCT_PACKAGES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.0-impl 
+    android.hardware.drm@1.0-impl
 
 # Display
 PRODUCT_PACKAGES += \
@@ -57,14 +57,10 @@ PRODUCT_PACKAGES += \
 	android.hardware.memtrack@1.0-impl \
 	android.hardware.memtrack@1.0-service
 
-# NFC
-PRODUCT_PACKAGES += \
-	android.hardware.nfc@1.0-impl
-
 # Netd
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.0
-    
+
 # Netutils
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
@@ -103,5 +99,3 @@ PRODUCT_PACKAGES += \
 # WiFi
 PRODUCT_PACKAGES += \
 	android.hardware.wifi@1.0-service
-  
-
