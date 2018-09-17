@@ -115,10 +115,6 @@ else
     DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay-wifionly
 endif
 
-# Power
-PRODUCT_PACKAGES += \
-    power.msm8974
-
 # Camera (stock blobs)
 PRODUCT_PACKAGES += \
 	camera.qcom \
