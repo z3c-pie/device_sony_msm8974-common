@@ -106,6 +106,9 @@ TARGET_USES_GRALLOC1_ADAPTER := true
 SF_VSYNC_EVENT_PHASE_OFFSET_NS := 5000000
 VSYNC_EVENT_PHASE_OFFSET_NS := 7500000
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2016-05-01
+
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.
 # Increase the size if shaders of size greater than 12KB are used.
