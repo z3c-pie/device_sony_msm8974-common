@@ -131,7 +131,7 @@ BOARD_SEPOLICY_DIRS += \
     device/sony/msm8974-common/sepolicy
 
 # Treble
-DEVICE_MANIFEST_FILE := device/sony/msm8974-common/treble-manifest.xml
+DEVICE_MANIFEST_FILE := device/sony/msm8974-common/manifest.xml
 
 # SODP build barrier
 PRODUCT_PLATFORM_SOD := true
