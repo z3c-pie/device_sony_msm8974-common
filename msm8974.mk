@@ -105,7 +105,7 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    android.hardware.broadcastradio@1.0-impl
+    android.hardware.broadcastradio@2.0-service
 
 # GNSS
 PRODUCT_PACKAGES += \
