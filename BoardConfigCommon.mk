@@ -121,4 +121,4 @@ BOARD_SEPOLICY_DIRS += \
 PRODUCT_PLATFORM_SOD := true
 
 # Treble
-DEVICE_MANIFEST_FILE := device/sony/msm8974-common/treble-manifest.xml
+DEVICE_MANIFEST_FILE := $(PLATFORM_PATH)/manifest.xml
