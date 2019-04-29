@@ -59,9 +59,7 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/gps/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps_debug.conf \
     frameworks/native/data/etc/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml
-
 
 PRODUCT_PACKAGES += \
     libgps.utils \
@@ -71,7 +69,8 @@ PRODUCT_PACKAGES += \
     libloc_pla \
     libloc_api_v02 \
     libloc_ds_api \
-    liblocation_api
+    liblocation_api \
+    gps.conf
 
 # Ion
 PRODUCT_PACKAGES += \
